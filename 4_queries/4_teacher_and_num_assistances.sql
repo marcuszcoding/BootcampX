@@ -5,4 +5,4 @@ JOIN students ON student_id = students.id
 JOIN cohorts ON cohort_id = cohorts.id
 WHERE cohorts.name = 'JUL02'
 GROUP BY teachers.name, cohorts.name
-ORDER BY teacher
+ORDER BY teacher;
